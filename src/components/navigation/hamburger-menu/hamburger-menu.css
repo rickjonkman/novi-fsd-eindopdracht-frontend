@@ -1,0 +1,66 @@
+
+
+.visible {
+    display: flex;
+}
+
+.hidden {
+    display: none;
+}
+
+.hamburger-menu {
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--other-pink);
+}
+
+.hamburger-section {
+    padding: 1rem;
+}
+
+.hamburger-section > ul > li {
+    display: block;
+}
+
+h2 > a {
+    color: var(--title-white);
+    text-decoration: none;
+}
+
+li > a {
+    color: var(--title-white);
+    text-decoration: none;
+}
+
+@media screen and (min-width: 300px) {
+
+    .hamburger-section h2 {
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (min-width: 500px) {
+
+    .hamburger-section h2 {
+        font-size: 1.8rem;
+    }
+
+    .hamburger-section {
+        margin-left: 4rem;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+
+    .hamburger-section h2 {
+        font-size: 2.5rem;
+    }
+
+    ul > li > a {
+        font-size: 1.5rem;
+    }
+
+    .hamburger-section {
+        margin-left: 15rem;
+    }
+}

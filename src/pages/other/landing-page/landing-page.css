@@ -1,1 +1,137 @@
 
+header.landing-page-header {
+    height: 100vh;
+    position: relative;
+    background-color: var(--main-background);
+    z-index: -1;
+    display: flex;
+    justify-content: center;
+}
+
+nav.landing-page-nav-bar {
+    width: 90%;
+    max-width: 1200px;
+    position: absolute;
+    top: 0;
+    padding: 1rem;
+}
+
+.landing-page-nav-container {
+    width: 100%;
+    padding-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+section.landing-page-hero-section {
+    display: flex;
+    flex-direction: column;
+    margin-top: -15rem;
+}
+
+.landing-page-hero-section h1,
+.landing-page-hero-section h2 {
+    text-align: center;
+}
+
+@media screen and (min-width: 300px) {
+
+    header.landing-page-header {
+        background-image: url("../../../assets/images/landingpage-bg-image-360px.png");
+        background-size: cover;
+        overflow: hidden;
+        padding-top: 22rem;
+        padding-bottom: 15rem;
+    }
+
+    .landing-page-hero-section h1 {
+        font-size: 4rem;
+    }
+
+    .landing-page-hero-section h2 {
+        font-size: 2rem;
+        padding-bottom: 1rem;
+    }
+
+}
+
+@media screen and (min-width: 500px) {
+
+    header.landing-page-header {
+        background-image: url("../../../assets/images/landingpage-bg-image-500px.png");
+        background-position-y: -10rem;
+        background-size: cover;
+        overflow: hidden;
+        padding-top: 20rem;
+        padding-bottom: 25rem;
+    }
+
+    section.landing-page-hero-section h1 {
+        font-size: 5rem;
+    }
+
+    section.landing-page-hero-section h2 {
+        font-size: 3rem;
+        margin-top: 4rem;
+    }
+}
+
+@media screen and (min-width: 700px) {
+
+    header.landing-page-header {
+        background-image: url("../../../assets/images/landingpage-bg-image-500px.png");
+        background-position-y: -25rem;
+        background-size: cover;
+        overflow: hidden;
+        padding-top: 20rem;
+        padding-bottom: 30rem;
+    }
+
+    section.landing-page-hero-section h1 {
+        font-size: 5rem;
+    }
+
+    section.landing-page-hero-section h2 {
+        font-size: 3rem;
+        padding-top: 3rem;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    header.landing-page-header {
+        background-image: url("../../../assets/images/landingpage-bg-image-tall.png");
+        background-position-y: -22rem;
+        background-size: cover;
+        overflow: hidden;
+        padding-top: 20rem;
+        padding-bottom: 30rem;
+    }
+
+    section.landing-page-hero-section h1 {
+        font-size: 5rem;
+    }
+
+    section.landing-page-hero-section h2 {
+        font-size: 3rem;
+        padding-top: 2rem;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+
+    header.landing-page-header {
+        background-image: url("../../../assets/images/landingpage-bg-image-large.png");
+        background-position-y: -15rem;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+
+    header.landing-page-header {
+        background-image: url("../../../assets/images/landingpage-bg-image-large.png");
+        background-position-y: -20rem;
+    }
+}
+
+
+

@@ -1,1 +1,80 @@
 
+.landing-page-nav-bar {
+    width: 90%;
+    max-width: 1200px;
+    position: absolute;
+    top: 0;
+    padding: 1rem;
+}
+
+.landing-page-nav-container {
+    width: 100%;
+    padding-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+#landing-page-nav-logo {
+    width: 10rem;
+}
+
+.landing-page-nav-menu-buttons ul {
+    display: flex;
+}
+
+.landing-page-nav-menu-buttons ul li {
+    display: inline-block;
+}
+
+.landing-page-nav-menu-buttons ul li a {
+    padding: 0.4rem;
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+@media screen and (min-width: 300px) {
+
+    #landing-page-nav-logo {
+        width: 6rem;
+    }
+
+    .landing-page-nav-menu-buttons ul li a {
+        font-size: 0.8rem;
+    }
+}
+
+@media screen and (min-width: 500px) {
+
+    #landing-page-nav-logo {
+        width: 8rem;
+    }
+
+    .landing-page-nav-menu-buttons ul li a {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (min-width: 700px) {
+
+    #landing-page-nav-logo {
+        width: 10rem;
+    }
+
+    .landing-page-nav-menu-buttons ul li a {
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+
+    #landing-page-nav-logo {
+        width: 10rem;
+    }
+
+    .landing-page-nav-menu-buttons ul li a {
+        font-size: 1.2rem;
+    }
+}
+
